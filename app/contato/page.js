@@ -2,13 +2,13 @@
 
 import { useState } from "react"
 import { useFormState } from "react-dom"
- import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 
 export default function Contato(){
     
     const[name, setName ] =  useState("")
     const[message, setMessage] = useState("")
-
+    //Notificações de envio
     const error = () => toast.error("Preencha todos os campos...");
     const success = () => toast.success("Mensagem enviada com sucesso!");
 
@@ -20,7 +20,7 @@ export default function Contato(){
             success()
         }
     }
-
+    //Página
     return(
     <div>
         <h1>Página de contato</h1>
