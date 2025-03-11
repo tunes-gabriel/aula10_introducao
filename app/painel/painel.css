@@ -1,0 +1,15 @@
+.erro{
+    color:brown;
+    background-color:blanchedalmond;
+    padding: 10px;
+    border-radius: 20px;
+    width:fit-content;
+}
+
+.login{
+    color:darkgreen;
+    background-color:greenyellow;
+    padding: 10px;
+    border-radius: 20px;
+    width:fit-content;
+}
